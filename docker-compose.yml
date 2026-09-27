@@ -1,0 +1,10 @@
+services:
+  servidor:
+    image: python:3.12-slim
+    container_name: servidor-ia
+    working_dir: /app
+    volumes:
+      - ./servidor:/app
+    command: python -m http.server 8000
+    ports:
+      - "8000:8000"

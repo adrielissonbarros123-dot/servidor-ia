@@ -1,0 +1,20 @@
+agentes:
+  gemini:
+    funcao: coordenador
+    ativo: true
+
+  openai:
+    funcao: programacao_e_raciocinio
+    ativo: true
+
+  claude:
+    funcao: analise_e_revisao
+    ativo: true
+
+  mistral:
+    funcao: codigo_e_agentes
+    ativo: true
+
+  local:
+    funcao: modelos_locais
+    ativo: true
